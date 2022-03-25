@@ -1,0 +1,30 @@
+.Forms {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: fit-content;
+    background-color: rgb(58, 57, 57);
+    padding: 1.3rem;
+    border-radius: 2px;
+    margin-top: 2.2rem;
+}
+
+.Forms-btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.F-btn {
+    width: 50%;
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem;
+    background-color: rgb(88, 87, 87);
+    color: rgb(185, 185, 185);
+}
+
+.active {
+    background-color: rgb(13, 179, 129);
+    color: #fff;
+}

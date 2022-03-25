@@ -1,0 +1,35 @@
+.inputCountainer {
+    position: relative;
+    flex-basis: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.width_50 {
+    flex-basis: calc(50% - 0.4rem);
+}
+
+.distances {
+    margin-bottom: 0;
+}
+
+.border_none {
+    border: none !important;
+}
+
+.stylePass {
+    color: #fff;
+    position: absolute; 
+    top: 23%;
+    left: 0.5rem;
+    z-index: 100; 
+    cursor: pointer
+}
+
+input {
+    color: #fff !important;
+}
+
+input:focus {
+    color: #fff !important;
+}
+

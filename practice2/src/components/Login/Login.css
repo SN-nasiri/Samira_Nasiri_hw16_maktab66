@@ -1,0 +1,42 @@
+.form-header {
+    color: #fff;
+    text-align: center;
+    margin: 1.3rem 0;
+}
+
+.form-login input {
+    background-color: transparent;
+    /* border: 1px solid rgb(137, 146, 158); */
+    border: none;
+    width: 100%;
+    padding: 0.3rem 0.5rem;
+}
+
+/* .form-login input:first-child {
+    margin-bottom: 1.5rem;
+} */
+
+::placeholder {
+    color: rgb(137, 146, 158);
+}
+
+:-ms-input-placeholder {
+    color: rgb(137, 146, 158);
+}
+
+.forgot {
+    color: rgb(12, 155, 112);
+    font-size: 0.7rem;
+    cursor: pointer;
+    margin-bottom: 0.8rem;
+}
+
+.submit {
+    width: 100%;
+    padding: 0.6rem;
+    background-color: rgb(13, 179, 129);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: large;
+}

@@ -1,0 +1,44 @@
+.form-header {
+    color: #fff;
+    text-align: center;
+    margin: 1.3rem 0;
+}
+
+.form-register {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-register input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    padding: 0.3rem 0.5rem;
+}
+
+::placeholder {
+    color: rgb(170, 177, 187);
+}
+
+:-ms-input-placeholder {
+    color: rgb(170, 177, 187);
+}
+
+.unErrorBorder {
+    border: 1px solid rgb(137, 146, 158);
+}
+
+.errorBorder {
+    border: 1px solid rgb(214, 10, 10);
+}
+
+.submit {
+    width: 100%;
+    padding: 0.6rem;
+    background-color: rgb(13, 179, 129);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: large;
+}

@@ -1,0 +1,44 @@
+.selectContainer {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.width_50 {
+    flex-basis: calc(50% - 0.4rem);
+}
+
+.distances {
+    margin-bottom: 0;
+}
+
+.unErrorBorder {
+    border: 1px solid rgb(137, 146, 158);
+}
+
+.errorBorder {
+    border: 1px solid rgb(214, 10, 10);
+}
+
+.selectContainer select {
+    flex-basis: calc(50% - 0.4rem);
+    background-color: transparent;
+    color: rgb(231, 239, 248);
+    border: none;
+    padding: 0.3rem 0.5rem 0.3rem 0;
+}
+
+option {
+    background-color: rgb(88, 87, 87);
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+option:first-child {
+    color: rgb(129, 135, 143);
+}
+
+option:hover {
+    background-color: rgb(13, 179, 129) !important;
+}
